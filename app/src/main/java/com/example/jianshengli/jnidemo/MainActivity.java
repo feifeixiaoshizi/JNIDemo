@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
     // Used to load the 'native-lib' library on application startup.
     static {
         //CmakeList.txt中配置类库的名字是啥就写啥，不用加后缀so。
+        //CmakeList.txt中配置类库的名字是啥就写啥，不用加后缀so。
         System.loadLibrary("native-lib");
     }
 
