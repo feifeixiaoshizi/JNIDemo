@@ -11,6 +11,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
+                //配置支持c++11 以及异常处理的标记
                 cppFlags "-std=c++11 -frtti -fexceptions"
             }
         }
@@ -23,6 +24,7 @@ android {
     }
     externalNativeBuild {
         cmake {
+            //配置cmake配置的文件的路径，表示在编译C/C++的时候根据cmake文件进行编译C/C++文件
             path "CMakeLists.txt"
         }
     }
