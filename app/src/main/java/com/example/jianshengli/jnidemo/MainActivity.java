@@ -3,7 +3,7 @@ package com.example.jianshengli.jnidemo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-
+//添加了测试commit的注释
 public class MainActivity extends AppCompatActivity {
 
     // Used to load the 'native-lib' library on application startup.
