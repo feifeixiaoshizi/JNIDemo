@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JniDemo.iml" filepath="$PROJECT_DIR$/JniDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JNIDemo.iml" filepath="$PROJECT_DIR$/JNIDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
